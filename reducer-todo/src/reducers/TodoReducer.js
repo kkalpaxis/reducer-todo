@@ -1,4 +1,4 @@
-export const todoListReducer = (state, {type, payload}) => {
+export const TodoReducer = (state, {type, payload}) => {
     switch(type){
         case 'ADD_TODO':
             const newTodo ={
